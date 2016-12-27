@@ -1,5 +1,9 @@
 # Starburst One: Alphanumeric Display Driver
 
+![](https://pbs.twimg.com/media/C0q6z9xVQAA58HW.jpg)
+
+![](https://pbs.twimg.com/media/C0q6z9yVIAACtBm.jpg)
+
 ![](anim.gif)
 
 This is a little weekend project I made with parts I had lying around: an [Atmel ATtiny461A](http://www.atmel.com/devices/ATTINY461A.aspx) drives an [LTP-587G](http://www.mouser.com/ProductDetail/Lite-On/LTP-587G/?qs=gnaPJ2cis73gi9y0T4zVCA%3D%3D) alphanumeric LED display. The only additional part needed is a 68 ohm current limiting resistor. Power is +5V from a USB wall adapter.
