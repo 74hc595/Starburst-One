@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7SEGM
+D Afficheur Leds 7 segments
+K DEV
+$ENDCMP
+#
+$CMP LTP-587G
+D Afficheur Leds 7 segments
+K DEV
+$ENDCMP
+#
+#End Doc Library

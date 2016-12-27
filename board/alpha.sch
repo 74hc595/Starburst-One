@@ -1,0 +1,207 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:alpha
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY461A-S U1
+U 1 1 5861B9CC
+P 2300 2300
+F 0 "U1" H 1400 3250 50  0000 C CNN
+F 1 "ATTINY461A-S" H 3050 1350 50  0000 C CNN
+F 2 "libs:SOIC-20W_7x12.8mm_Pitch1.27mm" H 2300 2300 50  0001 C CIN
+F 3 "" H 2300 2300 50  0000 C CNN
+	1    2300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTP-587G LED1
+U 1 1 5861C635
+P 5950 2200
+F 0 "LED1" H 5950 3250 50  0000 C CNN
+F 1 "LTP-587G" H 5950 1200 50  0000 C CNN
+F 2 "libs:DIP-18_Flipped_W12.7mm" H 7050 2500 50  0001 C CNN
+F 3 "" H 7050 2500 50  0000 C CNN
+	1    5950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5861C66A
+P 4950 1300
+F 0 "R1" V 4850 1300 50  0000 C CNN
+F 1 "68R" V 4950 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 1300 50  0001 C CNN
+F 3 "" H 4950 1300 50  0000 C CNN
+	1    4950 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5861C717
+P 1200 3100
+F 0 "#PWR01" H 1200 2850 50  0001 C CNN
+F 1 "GND" H 1200 2950 50  0000 C CNN
+F 2 "" H 1200 3100 50  0000 C CNN
+F 3 "" H 1200 3100 50  0000 C CNN
+	1    1200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 5861C817
+P 4750 1250
+F 0 "#PWR02" H 4750 1100 50  0001 C CNN
+F 1 "+5V" H 4750 1390 50  0000 C CNN
+F 2 "" H 4750 1250 50  0000 C CNN
+F 3 "" H 4750 1250 50  0000 C CNN
+	1    4750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 5861C856
+P 1200 1400
+F 0 "#PWR03" H 1200 1250 50  0001 C CNN
+F 1 "+5V" H 1200 1540 50  0000 C CNN
+F 2 "" H 1200 1400 50  0000 C CNN
+F 3 "" H 1200 1400 50  0000 C CNN
+	1    1200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1400 1200 1900
+Wire Wire Line
+	1200 2700 1200 3100
+Wire Wire Line
+	5250 1300 5100 1300
+Connection ~ 1200 3100
+Wire Wire Line
+	4800 1300 4750 1300
+Wire Wire Line
+	4750 1300 4750 1250
+Connection ~ 1200 1500
+Wire Wire Line
+	5250 1500 5250 1400
+Connection ~ 5250 1500
+Wire Wire Line
+	4150 2600 4150 2800
+Wire Wire Line
+	5250 2400 4350 2400
+Wire Wire Line
+	5250 2500 4300 2500
+Wire Wire Line
+	5250 2600 4250 2600
+Wire Wire Line
+	4250 2600 4250 2750
+Wire Wire Line
+	4300 2500 4300 2850
+Wire Wire Line
+	4150 2800 5250 2800
+Wire Wire Line
+	4350 2400 4350 2950
+Wire Wire Line
+	3550 2800 3400 2800
+Wire Wire Line
+	3550 2750 3550 2800
+Wire Wire Line
+	3550 2900 3400 2900
+Wire Wire Line
+	3550 2850 3550 2900
+Wire Wire Line
+	3550 2950 3550 3000
+Wire Wire Line
+	3550 3000 3400 3000
+Wire Wire Line
+	4050 3000 5250 3000
+Wire Wire Line
+	4350 2950 3550 2950
+Wire Wire Line
+	4100 2900 5250 2900
+Wire Wire Line
+	4300 2850 3550 2850
+Wire Wire Line
+	4100 2500 4100 2900
+Wire Wire Line
+	4250 2750 3550 2750
+Wire Wire Line
+	3400 2700 5250 2700
+Wire Wire Line
+	4050 2400 4050 3000
+Wire Wire Line
+	3400 2600 4150 2600
+Wire Wire Line
+	3400 2500 4100 2500
+Wire Wire Line
+	3400 2400 4050 2400
+Wire Wire Line
+	3400 2000 5250 2000
+Wire Wire Line
+	3400 1900 5250 1900
+Wire Wire Line
+	3400 1800 5250 1800
+Wire Wire Line
+	3400 1700 5250 1700
+Wire Wire Line
+	3400 1600 5250 1600
+Wire Wire Line
+	3400 1500 5250 1500
+Wire Wire Line
+	3400 2200 4200 2200
+Wire Wire Line
+	4200 2200 4200 2100
+Wire Wire Line
+	4200 2100 5250 2100
+Wire Wire Line
+	3400 2100 3450 2100
+Wire Wire Line
+	3450 2100 3450 2250
+Wire Wire Line
+	3450 2250 4250 2250
+Wire Wire Line
+	4250 2250 4250 2200
+Wire Wire Line
+	4250 2200 5250 2200
+Text Notes 7350 7500 0    60   ~ 12
+Starburst One - Matt Sarnoff (msarnoff.org)
+$EndSCHEMATC
