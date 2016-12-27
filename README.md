@@ -1,5 +1,7 @@
 # Starburst One: Alphanumeric Display Driver
 
+![](anim.gif)
+
 This is a little weekend project I made with parts I had lying around: an [Atmel ATtiny461A](http://www.atmel.com/devices/ATTINY461A.aspx) drives an [LTP-587G](http://www.mouser.com/ProductDetail/Lite-On/LTP-587G/?qs=gnaPJ2cis73gi9y0T4zVCA%3D%3D) alphanumeric LED display. The only additional part needed is a 68 ohm current limiting resistor. Power is +5V from a USB wall adapter.
 
 AVR-GCC source and KiCad design files are included. This is my first KiCad project: I've used [gEDA](http://geda-project.org) for everything in the past, but development seems to be stagnating and it's a pain to use on a Mac.
